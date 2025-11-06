@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0; padding: 0; box-sizing: border-box
+}
+
+html{
+    scroll-behavior: smooth
+}
+
+html {
+font-size: 16px;
+}
+
+header {
+    background: linear-gradient(135deg, #ccc2b4, #4b3716);
+    color: rgb(79, 56, 56);
+    text-align: left;
+    padding: 2rem;
+}
+
+h1 { font-size: 2rem; } 
+
+p { font-size: 1rem; } 
+
+.pequeno { font-size: 0.875rem; } 
+
+.botao-comprar {
+    background-color: #415879;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+}
+
+.botao-comprar:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+#especificacoes{
+    background-attachment: auto;
+}
+
+#hero {
+    background-attachment: auto;
+}
+
+.tabela {
+  width: 80%; 
+  border-collapse: collapse; 
+  margin: 25px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.tabela th,
+.tabela td {
+  border: 1px solid #ddd; 
+  padding: 1em 1em;
+  text-align: left;
+}
+
+.tabela  thead  th {
+  background-color: #523e2d; 
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tabela tbody tr:hover {
+  background-color:#523e2d; 
+  cursor: pointer;
+}
+
+a {
+  color: #007bff; 
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+
+a:hover {
+  color: #0056b3; 
+  text-decoration: none; 
+}
+
+aside {
+    background-color: #cdbeb2;
+    padding: 2rem;
+}
+
+aside ul {
+    list-style: square;
+    margin-top: 1rem;
+}
+
+aside a {
+    color: #0d47a1;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+aside a:hover {
+    color: #42a5f5;
+}
+
+img {
+  max-width: 100%;
+}
+
+main > section {
+    background-color: #cdbeb2;
+}
+
+section > h2 {
+    color: rgb(79, 56, 56);
+    line-height: 1.8rem
+}
+
+tbody {
+    background-color: #846449;
+    color: white;
+}
+
+footer {
+    background-color: #64584e;
+}
+
+tbody tr:nth-child(even) {
+background-color: #6f543e; 
+}
+
+header a {
+    color: #432a00;
+}
+
+h2 + p {
+      text-align: center;
+}
